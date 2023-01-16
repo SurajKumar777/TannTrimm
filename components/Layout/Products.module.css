@@ -1,0 +1,30 @@
+.prodContainer {
+    padding: 0 30px;
+}
+
+
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading p {
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.heading img {
+    margin: 0 10px;
+}
+
+.main {
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* grid-template-columns: repeat(auto-fit, minmax(20%, 23%));
+    grid-gap: 35px; */
+}

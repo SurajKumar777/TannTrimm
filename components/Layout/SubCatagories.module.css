@@ -1,0 +1,33 @@
+.main {
+    margin: 50px 0;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    overflow: scroll;
+}
+
+.main {
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.main::-webkit-scrollbar {
+    display: none;
+    /* Safari and Chrome */
+}
+
+.catagoriesCard {
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.catagoriesCard:hover {
+    background-color: var(--background-color);
+}
+
+.title {
+    text-transform: capitalize;
+    text-align: center;
+}

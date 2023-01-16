@@ -1,0 +1,33 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+ body {
+   background-color: var(--primary-color);
+
+   color: var(--text-color);
+ }
+
+ * {
+
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Inter', sans-serif;
+ }
+
+
+ :root {
+   --primary-color: #0c0c0c;
+   --secondary-color: #141414;
+   --text-color: #e5dfd9;
+   --offtext-color: #2fc14f;
+   --background-color: rgb(0, 0, 0);
+ }
+
+ li {
+   list-style: none;
+ }
+
+ a {
+   text-decoration: none;
+   color: var(--text-color);
+ }

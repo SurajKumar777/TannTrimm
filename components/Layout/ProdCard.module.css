@@ -1,0 +1,75 @@
+.prodCard {
+    width: 20rem;
+}
+
+.prodCard:hover {
+    background-color: var(--background-color);
+    transition: 200ms ease-in-out;
+}
+
+
+.prodCard img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.prodImg img {
+    width: 20px;
+    position: absolute;
+    top: 0px;
+    left: 90%;
+}
+
+.prodCard .title {
+    padding: 10px 0;
+    font-size: 18px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.prodInfo {
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+}
+
+.prodInfo img {
+    width: 30px;
+}
+
+.info {
+    grid-column: 1/2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: flex-end;
+}
+
+.info p {
+    font-size: 12px;
+}
+
+.info span {
+    color: var(--offtext-color);
+}
+
+.icon {
+    grid-column: 3/4;
+    display: grid;
+    justify-items: center;
+    align-items: flex-end;
+}
+
+.icon img {
+    width: 40px;
+    height: 40px;
+}
+
+.prodCard button {
+    border: none;
+    border-radius: 10px;
+    background-color: var(--secondary-color);
+}
